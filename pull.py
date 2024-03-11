@@ -90,7 +90,7 @@ for _ in range(100) :
 
     else :
      print("please select story \n 1 Hospital  2 weekend  3 letter :")
-     Templates = int(input(" write Number story ! :  "))
+     Templates = int(input(" write Number story !! :  "))
    
 
 
