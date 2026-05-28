@@ -1,10 +1,18 @@
-
 def main():
-    a = input()
-    i = int(input())
 
-    for j in range(i):
-        print(a)
+    s = set()
+    i = int(input())
+    a = []
+    j = 0
+    while j < i:
+        words = input().split()
+        for w in words:
+            if w not in s:
+                s.add(w)
+                a.append(w)
+        j += 1
+    for c in a:
+        print(c)
 
 
 if __name__ == "__main__":
